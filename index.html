@@ -1,57 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- FONT  -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap" rel="stylesheet">
-     <title>Namanganliklar24</title>
-     <!-- STYLE  -->
-     <link rel="stylesheet" href="style/normalize.css">
-     <link rel="stylesheet" href="style/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FONT  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+  <title>Namanganliklar24</title>
+  <!-- STYLE  -->
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<!-- SITE-HEADER -->
-<header class="site-header">
-     <!-- SITE-HEADER-TOP -->
-     <div class="site-header-top">
-       <div class="site-header-top-container container">
-         <!-- SITE-HEADER-LOGO -->
-         <a class="site-header-logo" href="index.html">
-           <img class="site-header-logo-img" src="img/logo.svg" alt="N24 logo" width="264" height="28">
-         </a>
+  <!-- SITE-HEADER -->
+  <header class="site-header">
+    <!-- SITE-HEADER-TOP -->
+    <div class="site-header-top">
+      <div class="site-header-top-container container">
+        <!-- SITE-HEADER-LOGO -->
+        <a class="site-header-logo" href="index.html">
+          <img class="site-header-logo-img" src="img/logo.svg" alt="N24 logo" width="264" height="28">
+        </a>
 
-         <!-- CURRENCY-RATES -->
-         <ul class="currency-rates">
-           <li class="currency-rates-item">
-             <b class="currency-rates-type">$</b>
-             <span class="currency-rates-value">10650.06</span>
-           </li>
-           <li class="currency-rates-item">
-             <b class="currency-rates-type">Р</b>
-             <span class="currency-rates-value">146.08</span>
-           </li>
-         </ul>
+        <!-- CURRENCY-RATES -->
+        <ul class="currency-rates">
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">$</b>
+            <span class="currency-rates-value">10650.06</span>
+          </li>
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">Р</b>
+            <span class="currency-rates-value">146.08</span>
+          </li>
+        </ul>
 
-         <!-- GLOBAL-SEARCH-FORM -->
-         <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
-           <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
-         </form>
+        <!-- GLOBAL-SEARCH-FORM -->
+        <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
+          <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
+        </form>
 
-         <!-- LANG-TOGGLE -->
-         <div class="lang-toggle">
-           <a class="lang-toggle-link lang-toggle-link-active" href="index.html">УЗ</a>
-           <a class="lang-toggle-link" href="index.html/ru">РУ</a>
-         </div>
+        <!-- LANG-TOGGLE -->
+        <div class="lang-toggle">
+          <a class="lang-toggle-link lang-toggle-link-active" href="index.html">УЗ</a>
+          <a class="lang-toggle-link" href="index.html/ru">РУ</a>
+        </div>
 
-         <!-- SITE-HEADER-AUTH -->
-         <a class="button button-primary" href="#">Войти</a>
-       </div>
-     </div>
+        <!-- SITE-HEADER-AUTH -->
+        <a class="button button-primary" href="#">Войти</a>
+      </div>
+    </div>
 
-     <div class="container">
-                                             </body>
-                                             </html>
+    <div class="container">
+      <!-- SITENAV -->
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Главное</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Интересное</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Экономика</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Политика</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Общество</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Технологии</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Спорт</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Культура</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Происшествия</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Наука</a></li>
+        </ul>
+      </nav>
+      <!-- SITE-HEADER-BANNER  aside>saytga aloqasi bo'lamagan reklama bannerlar uchun ishlatiladigan sarlavha boshi -->
+      <aside>
+        <div class="site-header-banner">
+          <a class="site-header-banner-link" href="https://olcha.uz" target="_blank">
+            <img class="site-header-banner-img" src="img/banner.jpg" alt="Olcha Sayti"
+            srcset="img/banner.jpg 1x , img/banner@2x.jpg 2x " width="1240" height="128">
+          </a>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <!-- MAIN-CONTENT  -->
+  <main class="main-content">
+    <div class="container">
+      <!-- <h1>Namanganliklar24-Хотите быть в курсе свежих новостей?  Включите уведомления!
+      </h1> -->
+      <!-- TOP-NEWS  -->
+      <section class="top-news">
+        <!-- <h2>Топ новости</h2> -->
+        <!-- NEWS-GRID  -->
+        <div class="new-grid">
+        <!-- NEWS-GRID-ITEM 1 -->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+            <a class="article-card-link" href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a>
+          </h3>
+          <p class="article-card-text">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+          <img class="article-class-img" src="img/krasnaya1.svg" alt="ИА Красная Весна" width="360" height="165" srcset="img/krasnaya1.svg 1x,img/krasnaya2@2x-1.svg 2x-1">
+          <footer class="article-card-footer">
+            <img class="article-img-source-item" src="img/krasnaya-icon.svg" alt="ИА Красная Весна" width="20" height="20" srcset="img/krasnaya-icon.svg 1x, img/krasnaya-icon@2x-3.svg 2x-3">
+            <div class="article-card-source-time">
+              <span class="article-source-time">ИА Красная Весна </span>
+              <time datetime="15:55:00">15:55</time>
+            </div>
+          </footer>
+          </article>
+        <!-- NEWS-GRID-ITEM 2  -->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+            <a class="article-card-link" href="#">Ученые доказали экспериментальным путем пользу покровных культур</a>
+          </h3>
+          <p class="article-card-text">Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
+          <img class="article-class-img" src="img/gazeta2.svg" alt="Газета.Ru" width="360" height="165" srcset="img/gazeta2.svg 1x,gazeta2@2x-1.svg 2x-1">
+          <footer class="article-card-footer">
+            <img class="article-img-source-item" src="img/gazeta-icon.svg" alt="Газета.Ru" width="20" height="20" srcset="img/gazeta-icon.svg 1x, img/gazeta-icon@2x-3.svg 2x-3">
+            <div class="article-card-source-time">
+              <span class="article-source-time">Газета.Ru  </span>
+              <time datetime="12:54:00">12:54</time>
+            </div>
+          </footer>
+          </article>
+        <!-- NEWS-GRID-ITEM  3-->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+            <a class="article-card-link" href="#">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</a>
+          </h3>
+          <p class="article-card-text">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
+          <img class="article-class-img" src="img/apolo3-1.svg" alt="Хайтек+" width="360" height="165" srcset="img/apolo3-1.svg 1x,img/apolo3@2x-1.svg 2x-1">
+          <footer class="article-card-footer">
+            <img class="article-img-source-item" src="img/apolo-icon.svg" alt="Хайтек+" width="20" height="20" srcset="img/apolo-icon.svg 1x,img/apolo-icon@2x-1.svg 2x-1">
+            <div class="article-card-source-time">
+              <span class="article-source-time">Хайтек+</span>
+              <time datetime="13:44:00">13:44</time>
+            </div>
+          </footer>
+          </article>
+        <!-- NEWS-GRID-ITEM 4 -->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+            <a class="article-card-link" href="#">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</a>
+          </h3>
+          <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значения...</p>
+          <img class="article-class-img" src="img/iphone4.svg" alt="Digger.ru" width="360" height="165" srcset="img/iphone4.svg 1x,img/iphone4@2x-2.svg 2x-2">
+          <footer class="article-card-footer">
+            <img class="article-img-source-item" src="img/iphone-icon.svg" alt="Digger.ru" width="20" height="20" srcset="img/iphone-icon.svg 1x ,img/iphone-icon@2x-2.svg 2x-2">
+            <div class="article-card-source-time">
+              <span class="article-source-time">Digger.ru </span>
+              <time datetime="14:25:00">14:25</time>
+            </div>
+          </footer>
+          </article>
+        <!-- NEWS-GRID-ITEM  5-->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+            <a class="article-card-link" href="#">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</a>
+          </h3>
+          <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значение...</p>
+          <img class="article-class-img" src="img/sars-cov5.svg" alt="Lenta.ru" width="360" height="165" srcset="img/sars-cov5.svg 1x,img/sars-cov5@2x-2.svg 2x-2">
+          <footer class="article-card-footer">
+            <img class="article-img-source-item" src="img/sars-cov-icon.svg" alt="Lenta.ru" width="20" height="20" >
+            <div class="article-card-source-time">
+              <span class="article-source-time">Lenta.ru </span>
+              <time datetime="10:54:00">10:54</time>
+            </div>
+          </footer>
+          </article>
+        <!-- NEWS-GRID-ITEM 6 -->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+            <a class="article-card-link" href="#">Китайская марка JAC повысила цены на лифтбек и пикап в России</a>
+          </h3>
+          <p class="article-card-text">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+          <img class="article-class-img" src="img/trantec6.svg" alt="Тарантас Ньюс" width="360" height="165" srcset="img/trantec6.svg 1x,img/trantec6@2x.svg 2x">
+          <footer class="article-card-footer">
+            <img class="article-img-source-item" src="img/trantec-icon.svg" alt="Тарантас Ньюс" width="20" height="20" srcset="img/trantec-icon.svg 1x,img/trantec-icon@2x.svg 2x">
+            <div class="article-card-source-time">
+              <span class="article-source-time">Тарантас Ньюс 10:44 </span>
+              <time datetime="10:44:00">10:44</time>
+            </div>
+          </footer>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main></body>
+  </html>
