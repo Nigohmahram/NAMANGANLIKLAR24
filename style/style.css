@@ -234,6 +234,8 @@
 
 }
 .article-card{
+     display: flex;
+     flex-direction: column;
      padding: 20px 17px 15px;
      border-radius: 15px;
      background-color: #f6f6f6;
@@ -251,15 +253,39 @@
      color: #000;
      text-decoration: none;
 }
+.article-card-link:hover{
+     color: #2959ce;}
+.article-card-link:active{
+     opacity: 0.6;
+}
+
 .article-card-text {
+     margin-top: 0;
+     margin-bottom: 15px;
 }
 .article-class-img {
+     display: block;
+     width: 360px;
+     height: 165px;
+     margin-top: auto;
+     object-fit: cover;
+     margin-bottom: 16px;
+     border-radius: 10px
 }
 .article-card-footer {
+     display: flex;
+     align-items: center;
 }
 .article-img-source-item {
+     width: 20px;
+     height: 20px;
+     margin-right: 10px;
+     border-radius: 5px;
 }
 .article-card-source-time {
+font-size: 12;
+line-height: normal;
+color: #5e5f61;
 }
 .article-source-time {
 }
